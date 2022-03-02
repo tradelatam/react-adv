@@ -32,10 +32,7 @@ export const FormikBasicPage = () => {
           }
 
         return errors;
-    };
-
-        
-    
+    };    
 
     const {handleChange, values, handleSubmit, handleBlur, errors, touched } = useFormik({
         initialValues: {
@@ -48,13 +45,10 @@ export const FormikBasicPage = () => {
         },
         validate 
     });
-
-
-
   
     return (
         <div>
-            <h1>Formik Basic Tutorial</h1>
+            <h1>Formik Basic</h1>
 
             <form onSubmit={handleSubmit} noValidate>
                 <label htmlFor="firstName">First name</label>
