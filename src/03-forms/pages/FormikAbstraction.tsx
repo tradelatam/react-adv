@@ -5,8 +5,8 @@ import * as Yup from 'yup';
 // import { MySelect } from '../components/MySelect';
 // import { MyTextInput } from '../components/MyTextInput';
 
-import { MyCheckbox, MySelect, MyTextInput} from '../components';
 import '../styles/styles.css';
+import { MyCheckbox, MySelect, MyTextInput} from '../components';
 
 export const FormikAbstractation = () => {
   
@@ -67,10 +67,6 @@ export const FormikAbstractation = () => {
                     
                 }
             </Formik>
-
-
-
-            
 
         </div>
     )
